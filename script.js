@@ -7,7 +7,7 @@ let city = document.getElementById("city");
 // when user click on submit button
 function enterData() {
   let studentData = fetchData();
-  if (selectedrow == null && userName.value!="" && emaill.value!="" && phone.value!="" && city.value!="")  {
+  if (selectedrow == null && userName.value!="" && email.value!="" && phone.value!="" && city.value!="")  {
     addData(studentData);
     saveData();
   }
